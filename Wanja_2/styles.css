@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    
+    background-color: #1a1a1a;
+    /* background-image:url('image4.jpg'); */
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url(image4.jpg);
+    display:inline;
+    padding: 20px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+.logo_2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background: black;
+    background-image: url('hero-image.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    font-size: 14px;
+}
+
+.recent-works h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.works-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.work-item {
+    text-align: center;
+}
+
+.work-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.work-item p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.biography {
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.biography h2 {
+    font-size: 36px;
+}
+
+.bio-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.bio-content img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.contact-info{
+    width: 50%;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+textarea {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #858484;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    font-size: 12px;
+}
